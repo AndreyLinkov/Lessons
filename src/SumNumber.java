@@ -15,9 +15,7 @@ public class SumNumber {
                     int secondDigit = number/10%10;
                     int thirdDigit = number%10;
                     int result = firstDigit+secondDigit+thirdDigit;
-
                     System.out.println(firstDigit + "+" + secondDigit + "+" + thirdDigit + "=" + result);
-
                     input.close();
                     break;
                 }
